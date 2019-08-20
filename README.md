@@ -1,0 +1,1 @@
+This directory instrucs how to use git.
