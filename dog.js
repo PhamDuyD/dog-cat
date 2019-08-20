@@ -1,5 +1,9 @@
+var chalk = require('chalk');
 function dog(name){
 	this.name = name;
 }
 
-let dog1 = new dog('Spite');
+dog.prototype.sayHi = function(){
+	console.log('Hi! my name is ' + chalk.yellow(this.name));
+};
+module.exports = dog;
