@@ -4,3 +4,4 @@ function cat(name,age){
 }
 let cat1 = new cat('Tom',25);
 
+module.exports = cat;
